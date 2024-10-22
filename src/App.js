@@ -12,8 +12,8 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <AuthProvider>
-      <Router>
+    <Router>
+      <AuthProvider> {/* Move AuthProvider inside Router */}
         {/* Navigation Bar */}
         <AppBar position="static">
           <Toolbar>
@@ -53,8 +53,8 @@ function App() {
             <Route path="/register" element={<Register />} />
           </Routes>
         </Container>
-      </Router>
-    </AuthProvider>
+      </AuthProvider>
+    </Router>
   );
 }
 
