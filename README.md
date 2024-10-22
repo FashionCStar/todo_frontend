@@ -6,9 +6,6 @@ This is a simple full-stack Todo List application built using React for the fron
 ## Running the Application
 
 ### Frontend Setup
-- Navigate to the `frontend/` folder:
-  ```bash
-  cd frontend
 
 npm install
 
