@@ -13,7 +13,7 @@ npm start
 
 The app will now run at http://localhost:3000.
 
-##Usage
+## Usage
 
 - Register a new account.
 - Log in with your credentials.
